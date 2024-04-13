@@ -1,0 +1,23 @@
+public class practice1 {
+	int a=12;
+	void abc()
+	{
+	System.out.println("abc");
+	}
+}
+public class practice2 {
+	A a;
+	void show()
+	{
+		a.show();
+		System.out.println("show");
+	}
+
+}
+public static void main(String[] args)
+{
+practice2 obj=new practice2();
+obj.a=new practice(); 
+obj.show();
+}
+}
